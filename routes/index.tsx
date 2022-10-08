@@ -1,5 +1,6 @@
 import BackgroundTasks from "../islands/BackgroundTasks.tsx";
 import BatteryStatus from "../islands/BatteryStatus.tsx";
+import MediaStreams from "../islands/MediaStreams.tsx";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </small>
       <BackgroundTasks />
       <BatteryStatus />
+      <MediaStreams />
       {/* 
       Interesting APIs:
       - Broadcast Channel API
@@ -28,7 +30,6 @@ export default function Home() {
       - IndexedDB API
       - Intersection Observer API
       - Media Capabilities API
-      - Media Streams API
       - Media Session API
       - MediaStream Recording API
       - Navigation Timing API (Performance)
