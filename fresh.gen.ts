@@ -6,7 +6,8 @@ import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/index.tsx";
 import * as $$0 from "./islands/BackgroundTasks.tsx";
 import * as $$1 from "./islands/BatteryStatus.tsx";
-import * as $$2 from "./islands/MediaStreams.tsx";
+import * as $$2 from "./islands/Geolocation.tsx";
+import * as $$3 from "./islands/MediaStreams.tsx";
 
 const manifest = {
   routes: {
@@ -15,7 +16,8 @@ const manifest = {
   islands: {
     "./islands/BackgroundTasks.tsx": $$0,
     "./islands/BatteryStatus.tsx": $$1,
-    "./islands/MediaStreams.tsx": $$2,
+    "./islands/Geolocation.tsx": $$2,
+    "./islands/MediaStreams.tsx": $$3,
   },
   baseUrl: import.meta.url,
   config,

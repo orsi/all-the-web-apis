@@ -1,5 +1,6 @@
 import BackgroundTasks from "../islands/BackgroundTasks.tsx";
 import BatteryStatus from "../islands/BatteryStatus.tsx";
+import Geolocation from "../islands/Geolocation.tsx";
 import MediaStreams from "../islands/MediaStreams.tsx";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <BackgroundTasks />
       <BatteryStatus />
       <MediaStreams />
+      <Geolocation />
       {/* 
       Interesting APIs:
       - Broadcast Channel API
@@ -23,7 +25,6 @@ export default function Home() {
       - File and Directory Entries API
       - Fullscreen API
       - Gamepad API
-      - Geolocation API
       - HTML Drag and Drop API
       - High Resolution Time
       - History API
